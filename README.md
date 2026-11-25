@@ -62,10 +62,10 @@ Pourquoi cette organisation : un dossier = une personne, donc des merges sans co
 
 | Personne | Pages / fichiers | Rôle |
 |---|---|---|
-| **1** | `welcome`, `login`, `signup`, `signupPro`, `profile` → `js/pages/auth.js`, `profile.js`, `css/auth.css` | Comptes, formulaires, validation (SIRET, mot de passe). **Responsable du socle** (`core.js`, `base.css`, `index.html`) : toute modification du socle passe par elle. |
-| **2** | `home`, `vehicle`, `problem`, `when`, `recap`, `garages`, `garageDetail`, `sent` → `home.js`, `request.js`, `css/request.css` | Accueil et parcours de demande en 4 étapes, filtres, états vides/erreur. |
-| **3** | `requests`, `track`, `quote`, `accepted`, `msg`, `chat`, `cars`, `carHist` → `follow.js`, `messages.js`, `vehicles.js`, `css/follow.css` | Suivi, devis côté client, messagerie, véhicules et historique. |
-| **4** | `meca.requests`, `detail`, `mkquote`, `sentq`, `jobs`, `invoice`, `invoiceWait`, `invoiceView`, `review` → `meca.js`, `invoices.js`, `css/meca.css` | Espace mécanicien et factures/avis. |
+| **Dylan** | `welcome`, `login`, `signup`, `signupPro`, `profile` → `js/pages/auth.js`, `profile.js`, `css/auth.css` | Comptes, formulaires, validation (SIRET, mot de passe). **Responsable du socle** (`core.js`, `base.css`, `index.html`) : toute modification du socle passe par elle. |
+| **Yanis** | `home`, `vehicle`, `problem`, `when`, `recap`, `garages`, `garageDetail`, `sent` → `home.js`, `request.js`, `css/request.css` | Accueil et parcours de demande en 4 étapes, filtres, états vides/erreur. |
+| **Omar** | `requests`, `track`, `quote`, `accepted`, `msg`, `chat`, `cars`, `carHist` → `follow.js`, `messages.js`, `vehicles.js`, `css/follow.css` | Suivi, devis côté client, messagerie, véhicules et historique. |
+| **Kamilya** | `meca.requests`, `detail`, `mkquote`, `sentq`, `jobs`, `invoice`, `invoiceWait`, `invoiceView`, `review` → `meca.js`, `invoices.js`, `css/meca.css` | Espace mécanicien et factures/avis. |
 
 Règle : on ne modifie que ses propres fichiers. Besoin d'un changement dans le socle ou chez un autre → on le demande (issue GitHub ou message).
 
