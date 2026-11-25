@@ -1,0 +1,16 @@
+.logo{display:grid;place-items:center;width:80px;height:80px;border-radius:16px;background:var(--accent);color:#fff;margin:0 auto 12px}
+.brand-title{color:var(--primary);font-size:34px;line-height:40px}
+.tagline{color:var(--primary);margin:32px 0}
+.points{list-style:none;padding:0}
+.points li{margin-bottom:12px}
+.center-link{display:block;margin:8px auto 0}
+.center-row{justify-content:center;width:100%}
+.pass-box{position:relative}
+.pass-box input{padding-right:110px}
+.pass-toggle{position:absolute;right:12px;top:0;height:100%;display:flex;gap:6px;align-items:center;padding:0}
+.switch{display:flex;align-items:center;gap:8px;background:none;border:0;cursor:pointer;font:400 14px Inter,sans-serif;color:var(--text2);min-height:44px}
+.switch i{width:52px;height:28px;border-radius:14px;background:var(--field);position:relative;flex:none}
+.switch i::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:left .15s}
+.switch[aria-checked=true] i{background:var(--primary)}
+.switch[aria-checked=true] i::after{left:27px}
+.switch:focus-visible{outline:3px solid var(--primary);outline-offset:2px}

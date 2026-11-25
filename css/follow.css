@@ -1,0 +1,5 @@
+.number{border:1px solid var(--border);border-radius:50%;width:24px;height:24px;display:grid;place-items:center;flex:none}
+.small-btn{width:auto}
+.bubble{max-width:85%;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:12px;margin-bottom:12px}
+.bubble.me{margin-left:auto;background:var(--tint)}
+.bubble.bad{border:2px solid var(--err)}
