@@ -42,15 +42,6 @@ Chaque fichier de `js/pages/` suit le même modèle :
 
 Les données sont simulées pour l'instant (objet `state`). Appels à brancher au back-end :
 
-| Fonctionnalité | Appels |
-|---|---|
-| Comptes et profil | `POST /auth/register`, `POST /auth/login`, `GET/PATCH /me` |
-| Demande et garages | `POST /requests`, `GET /garages`, `GET /garages/:id` |
-| Suivi et devis | `GET /requests/:id`, `POST /quotes/:id/accept`, `POST /quotes/:id/refuse` |
-| Messagerie | `GET/POST /conversations/:id/messages` |
-| Véhicules et factures | `GET /vehicles/:id/history`, `GET /invoices/:id`, `POST /reviews` |
-| Mécanicien | `GET /garage/requests`, `POST /quotes`, `PATCH /jobs/:id/done`, `POST /invoices` |
-
 ## Lancer le projet
 
 ```bash
